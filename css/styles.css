@@ -69,10 +69,8 @@ button {
 /* Features */
 
 .features {
-    margin-top: 5%;
-    margin-bottom: 5%;
     text-align: center;
-    padding: 3%;
+    padding: 7% 10%;
 }
 
 .featicons {
@@ -86,7 +84,7 @@ button {
 .features h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    line-height: 1.5rem; 
+    line-height: 1.5; 
 }
 
 .features p {
@@ -94,4 +92,38 @@ button {
     margin-bottom: 5%;
 }
 
-/*  */
+/* Testmonials */
+
+#testimonials {
+    text-align: center;
+    background: #ef8172;
+    color: #fff;
+}
+
+#testimonials h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5; 
+}
+
+.testmonialimg {
+    width: 10%;
+    border-radius:100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 10%;
+}
+
+#press {
+    background: #ef8172;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
