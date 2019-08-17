@@ -1,0 +1,31 @@
+/* Global */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Title Section */
+
+.container-fluid {
+    padding: 3% 10%;
+}
+
+#title {
+    background:#ff4c68;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.titlecontent h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
