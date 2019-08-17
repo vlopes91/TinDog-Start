@@ -29,7 +29,7 @@ button {
 .nav-link {
     font-size: 1.3rem;
     font-weight: lighter;
-    margin-right: 30px;
+    margin-right: 25px;
     color:#ccc;
 }
 
@@ -50,19 +50,18 @@ button {
 .titlecontent h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
     color: #fff;
     margin-bottom: 5%;
 }
 
 .rotate45 {
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
-    transform: rotate(30deg);
-    width: 300px;
-    height: 600px;
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    transform: rotate(25deg);
+    width: 50%;
     margin: 20px;
 }
