@@ -65,3 +65,33 @@ button {
     width: 50%;
     margin: 20px;
 }
+
+/* Features */
+
+.features {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    padding: 3%;
+}
+
+.featicons {
+    color: #ef8172;
+}
+
+.featicons:hover {
+    color: #ff4c68;
+}
+
+.features h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.5rem; 
+}
+
+.features p {
+    color: #8f8f8f;
+    margin-bottom: 5%;
+}
+
+/*  */
