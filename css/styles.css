@@ -3,9 +3,14 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;   
 }
 
-/* Title Section */
+button {
+    margin: 5px;
+}
+
+/* Nav bar */
 
 .container-fluid {
     padding: 3% 10%;
@@ -13,6 +18,19 @@ body {
 
 #title {
     background:#ff4c68;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin-right: 30px;
+    color:#ccc;
 }
 
 .navbar a {
@@ -23,9 +41,28 @@ body {
     color: #fff;
 }
 
+/* Title content */
+
+.titlecontent {
+    margin-top: 5%;
+}
+
 .titlecontent h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 3rem;
     line-height: 1.5;
+    color: #fff;
+    margin-bottom: 5%;
+}
+
+.rotate45 {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+    width: 300px;
+    height: 600px;
+    margin: 20px;
 }
