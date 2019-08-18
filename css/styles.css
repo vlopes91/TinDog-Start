@@ -13,7 +13,7 @@ button {
 /* Nav bar */
 
 .container-fluid {
-    padding: 3% 10%;
+    padding: 3% 10% 7%;
 }
 
 #title {
@@ -62,11 +62,18 @@ button {
     -o-transform: rotate(25deg);
     -ms-transform: rotate(25deg);
     transform: rotate(25deg);
-    width: 50%;
+    width: 40%;
     margin: 20px;
+    position: absolute;
+    right: 30%;
 }
 
 /* Features */
+
+#features {
+    background: #fff;
+    position: relative;
+}
 
 .features {
     text-align: center;
@@ -127,3 +134,24 @@ button {
     width: 15%;
     margin: 20px 20px 50px;
 }
+
+/* Pricing */
+
+#pricing {
+    text-align: center;
+    padding: 7% 10%;
+}
+
+#pricing h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.card {
+    text-align: center;
+    padding: 10px;
+    line-height: 1;
+    margin-top: 5%;
+}
+
